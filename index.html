@@ -272,6 +272,36 @@
       </div>
      </div>
     </div>
+
+    <style> h1 {
+  text-align: center;
+  margin-top: 200px;   /* jarak dari elemen sebelumnya */
+  margin-bottom: 35px;
+}</style>
+
+    <h1 class="font-display text-4xl md:text-5xl font-bold" id="keahlian-judul">Gallery My bini</h1>
+<div class="gallery">
+  <img src="https://i.imgur.com/xBSnGrB.jpeg" alt="Foto 1">
+  <img src="https://i.imgur.com/zSHq2ws.jpeg" alt="Foto 2">
+  <img src="https://i.imgur.com/dV5T84Y.jpeg" alt="Foto 3">
+</div>
+<head>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+      gap: 10px;
+    }
+    .gallery img {
+  width: 200%;        /* mengikuti lebar kolom */
+  height: 250px;      /* tinggi seragam */
+  object-fit: cover;  /* crop otomatis agar proporsi tetap bagus */
+  border-radius: 10px;
+}
+
+  </style>
+
+ 
    </section><!-- Contact Section -->
    <section id="kontak" class="py-24 px-6 relative z-10">
     <div class="max-w-4xl mx-auto">
@@ -466,6 +496,7 @@
   </script>
  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d9911d76603fd1e',t:'MTc3MzA0ODcxOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
 
 
 
